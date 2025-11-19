@@ -22,40 +22,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onStart() {
-        super.onStart()
-        Log.d("TAG", "onStart: I’m running")
-        Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d("TAG", "onResume: I’m running")
-        Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("TAG", "onPause: I’m running")
-        Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d("TAG", "onStop: I’m running")
-        Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.d("TAG", "onRestart: I’m running")
-        Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("TAG", "onDestroy: I’m running")
-        Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show()
-    }
+    
 
 }
